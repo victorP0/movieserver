@@ -50,7 +50,7 @@ function handleGetMovie(req, res) {
     
 }
 
-app.get('/', handleGetMovie)
+app.get('/movie', handleGetMovie)
 
 const PORT = 9000
 
